@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlgnyFiDY5tANJzWzuWSwC7tM5agwdUFTtBMK1zO50hlt6vc-GB9YIlIA&s);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #e0465a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-btn{
+    position:absolute; 
+    left:20px;
+     top:10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+/* Footer */
+footer {
+  background-color: #e0465a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.category-title{
+    color: greenyellow;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.category-cards{
+    font-size: 20px;
+}
+
+
+.card h3 {
+  display: flex;
+  justify-content: flex-start; /* pushes name left, price right within same line */
+  align-items: center;
+  margin: -5px;
+  margin-left: 0%;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.item-name {
+  flex: 1; /* ensures name takes up remaining space */
+}
+
+.price {
+  margin-left: 40px;
+  color:white;
+  font-weight: bold;
+  
+}
+
+
+

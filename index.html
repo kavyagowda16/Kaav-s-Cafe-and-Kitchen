@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Kaav's Café and Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Kaav's Café and Kitchen</h1>
+  </header>
+
+  <!-- Main Login Form -->
+  <main>
+    <div class="form-container">
+      <h2>Login</h2>
+      <!-- <form action="home.html"> -->
+        <form onsubmit="return loginBOM()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Login</button>
+
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+      </form>
+    </div>
+  
+
+     <!-- Cookie Notice BELOW form and ABOVE footer -->
+  <div id="cookieNotice" class="cookie-bar">
+    <p class="cookie-text">
+      We use cookies to improve your experience.
+    </p>
+
+  <div class="cookie-actions">
+    <button class="accept" onclick="acceptCookies()">Accept</button>
+    <button class="reject" onclick="rejectCookies()">Reject</button>
+  </div>
+  </div>
+  </main>
+
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Kaav's Café and Kitchen. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
